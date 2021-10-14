@@ -1,0 +1,18 @@
+@import "./src/common/style/sass/variables";
+@import "./src/common/style/sass/mixins.scss";
+
+.title {
+  &.center{
+    @media (min-width: 580px) {
+      text-align: center;
+    }
+  }
+  @include text($titleFontFamily,21px,1.2,upperCase,#fff);
+  font-weight: 600;
+  padding-bottom: 15px;
+  margin: 0;
+  @media (min-width: 580px) {
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+}

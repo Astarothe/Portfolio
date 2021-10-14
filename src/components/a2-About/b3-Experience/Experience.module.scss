@@ -1,0 +1,24 @@
+@import "./src/common/style/sass/variables";
+@import "./src/common/style/sass/mixins";
+
+.wrapper {
+  @media (min-width: 992px) {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.list {
+  color: white;
+  list-style-type: none;
+  padding-left: 0;
+  @media (min-width: 992px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+

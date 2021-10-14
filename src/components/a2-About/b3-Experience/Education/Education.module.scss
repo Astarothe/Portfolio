@@ -1,0 +1,90 @@
+@import "./src/common/style/sass/variables";
+@import "./src/common/style/sass/mixins";
+
+.item {
+  position: relative;
+  padding: 0 20px 0 60px;
+  margin: 0 0 50px;
+  @media (min-width: 992px) {
+    flex: 0 0 50%;
+    max-width: 301px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 450px;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 0;
+    border-left: 1px solid #333;
+  }
+
+  .year {
+    @include text($textFontFamily, 12px, 1.6, upperCase, #fff);
+    padding: 1px 10px;
+    display: inline-block;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #252525;
+    opacity: .8;
+  }
+
+  .title {
+    @include text($titleFontFamily, 17px, 1.2, upperCase, #fff);
+    margin: 7px 0 10px;
+    @media (min-width: 580px) {
+      font-size: 18px;
+    }
+    .subtitle {
+      opacity: .8;
+      font-weight: 600;
+      font-size: 15px;
+      position: relative;
+      display: block;
+      line-height: 1.6;
+      &:before {
+        display: none;
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 2px;
+        background-color: #fff;
+        left: 7px;
+        top: 9px;
+        opacity: .8;
+      }
+    }
+  }
+  .description{
+    @include text($textFontFamily, 14px, 1.6, none, #fff);
+    margin: 0;
+  }
+}
+
+.iconWrapper {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  line-height: 40px;
+  text-align: center;
+  z-index: 1;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #252527;
+}
+.fade{
+  position: absolute;
+  left: -2px;
+  z-index: 1;
+  border: 2px solid #5dc9e3;
+  box-shadow: 0px 0px 10px #5dc9e3;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

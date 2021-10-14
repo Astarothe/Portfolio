@@ -1,0 +1,21 @@
+@import "./src/common/style/sass/variables";
+@import "./src/common/style/sass/mixins";
+
+.wrapper {
+  padding: 85px 25px 0;
+  @media (min-width: 580px) {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 85px 15px 0;
+    box-sizing: border-box;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: calc(100% - 195px);
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
