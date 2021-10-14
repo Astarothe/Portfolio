@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolion/static/css/main.e4d84d3c.chunk.css",
+    "main.js": "/Portfolion/static/js/main.a03343bb.chunk.js",
+    "main.js.map": "/Portfolion/static/js/main.a03343bb.chunk.js.map",
+    "runtime-main.js": "/Portfolion/static/js/runtime-main.0a7087b9.js",
+    "runtime-main.js.map": "/Portfolion/static/js/runtime-main.0a7087b9.js.map",
+    "static/js/2.a482cfd2.chunk.js": "/Portfolion/static/js/2.a482cfd2.chunk.js",
+    "static/js/2.a482cfd2.chunk.js.map": "/Portfolion/static/js/2.a482cfd2.chunk.js.map",
+    "static/js/3.224718d0.chunk.js": "/Portfolion/static/js/3.224718d0.chunk.js",
+    "static/js/3.224718d0.chunk.js.map": "/Portfolion/static/js/3.224718d0.chunk.js.map",
+    "index.html": "/Portfolion/index.html",
+    "static/css/main.e4d84d3c.chunk.css.map": "/Portfolion/static/css/main.e4d84d3c.chunk.css.map",
+    "static/js/2.a482cfd2.chunk.js.LICENSE.txt": "/Portfolion/static/js/2.a482cfd2.chunk.js.LICENSE.txt",
+    "static/media/barbershop.aec421cc.png": "/Portfolion/static/media/barbershop.aec421cc.png",
+    "static/media/codewars-icon.207b1d80.svg": "/Portfolion/static/media/codewars-icon.207b1d80.svg",
+    "static/media/css-icon.a136bc1b.svg": "/Portfolion/static/media/css-icon.a136bc1b.svg",
+    "static/media/github-icon.f70d0d20.svg": "/Portfolion/static/media/github-icon.f70d0d20.svg",
+    "static/media/html-icon.452af7e5.svg": "/Portfolion/static/media/html-icon.452af7e5.svg",
+    "static/media/linkedin-icon.ccdf8b67.svg": "/Portfolion/static/media/linkedin-icon.ccdf8b67.svg",
+    "static/media/photo-filter.ff868591.png": "/Portfolion/static/media/photo-filter.ff868591.png",
+    "static/media/react-icon.d0e4e26d.svg": "/Portfolion/static/media/react-icon.d0e4e26d.svg",
+    "static/media/redux-icon.c240cdb8.svg": "/Portfolion/static/media/redux-icon.c240cdb8.svg",
+    "static/media/rest-api-icon.b2956379.svg": "/Portfolion/static/media/rest-api-icon.b2956379.svg",
+    "static/media/sass-icon.331c52de.svg": "/Portfolion/static/media/sass-icon.331c52de.svg",
+    "static/media/sedona.f628fda2.jpg": "/Portfolion/static/media/sedona.f628fda2.jpg",
+    "static/media/shelter.4713e0ba.png": "/Portfolion/static/media/shelter.4713e0ba.png",
+    "static/media/telegrams-icon.1d8b5609.svg": "/Portfolion/static/media/telegrams-icon.1d8b5609.svg",
+    "static/media/todolists.739bcd47.png": "/Portfolion/static/media/todolists.739bcd47.png",
+    "static/media/virtual-piano.3f4dd4e2.png": "/Portfolion/static/media/virtual-piano.3f4dd4e2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a7087b9.js",
+    "static/js/2.a482cfd2.chunk.js",
+    "static/css/main.e4d84d3c.chunk.css",
+    "static/js/main.a03343bb.chunk.js"
+  ]
+}
