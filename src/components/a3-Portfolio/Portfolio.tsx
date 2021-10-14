@@ -6,12 +6,13 @@ import {AppType} from "../../bll/store";
 import {PortfolioState} from "../../bll/portfolioReducer";
 import {Fade, Slide} from "react-awesome-reveal";
 import {Title} from "../../common/Title/Title";
-import {Separator} from "../../common/Separator/Separator";
+
 
 export const Portfolio = () => {
     const projects = useSelector<AppType, PortfolioState[]>(state => state.portfolio)
     const allProjects = projects.map((t) =>
-        <Slide triggerOnce={true} duration={1500} delay={200} key={t.id} direction={"left"} className={s.animateWrapper}>
+        <Slide triggerOnce={true} duration={1500} delay={200} key={t.id} direction={"left"}
+               className={s.animateWrapper}>
             <Fade duration={1500} delay={200} className={s.animate} triggerOnce={true}>
                 <Project
                     id={t.id}

@@ -12,7 +12,7 @@ export const Contact = () => {
     const contactsInfo = useSelector<AppType, ContactInfoType[]>(state => state.contact.contactInfo)
     const contactsLink = useSelector<AppType, ContactLinkType[]>(state => state.contact.contactLink)
 
-    const info = contactsInfo.map(t => <p className={s.connect}>
+    const info = contactsInfo.map(t => <p className={s.connect} key={t.id}>
         <a href={t.link} target={"_blank"} rel={"noreferrer"}>
             <FontAwesomeIcon icon={t.icon} color={"white"} size={"sm"}
                              className={`${t.id === 1 ? s.iconMail : s.iconTelephone}`}/>
@@ -20,7 +20,7 @@ export const Contact = () => {
         <span>{t.title}</span>
         <a href={t.link} target={"_blank"} rel={"noreferrer"}>{t.linkText}</a>
     </p>)
-    const link = contactsLink.map(t => <li className={s.item}>
+    const link = contactsLink.map((t,i) => <li className={s.item} key={i}>
         <a href={t.link} target={"_blank"} rel={"noreferrer"}>
             <img src={t.img} alt=""/>
         </a>

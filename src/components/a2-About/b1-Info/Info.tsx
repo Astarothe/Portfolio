@@ -16,26 +16,26 @@ export const Info = () => {
         <div className={s.infoContainer}>
             <div className={s.infoWrapper}>
                 <Title>Personal infos</Title>
-                    <ul className={s.infoList}>
-                        {
-                            info.map(t => <li key={t.id} className={s.infoItem}>
-                                <span className={s.title}>{t.title} </span>
-                                <span className={s.value}>{t.value}</span>
-                            </li>)
-                        }
-                    </ul>
+                <ul className={s.infoList}>
+                    {
+                        info.map(t => <li key={t.id} className={s.infoItem}>
+                            <span className={s.title}>{t.title} </span>
+                            <span className={s.value}>{t.value}</span>
+                        </li>)
+                    }
+                </ul>
                 <Button icon={faDownload}>Download cv</Button>
             </div>
             <div className={s.links}>
-                <ul >
+                <ul>
                     <li>
-                        <a href="https://www.codewars.com/users/Astarothe">
+                        <a href="https://www.codewars.com/users/Astarothe" target={"_blank"} rel={"noreferrer"}>
                             <img src={codewars} alt="codewars"/>
                             <p>CodeWars</p>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/Astarothe">
+                        <a href="https://github.com/Astarothe" target={"_blank"} rel={"noreferrer"}>
                             <img src={github} alt="github"/>
                             <p>GitHub</p>
                         </a>
