@@ -10,11 +10,11 @@ export const Skills = () => {
     const skills = useSelector<AppType, SkillType[]>(state => state.skills)
     const skillList = skills.map((t, i) =>
         <Fade key={i} triggerOnce={true} direction={i % 2 === 0 ? "left" : "left"}
-              duration={1500 + (i * i)} className={s.wrapperFade}
-              delay={1000}>
-            <Slide triggerOnce={true} direction={i % 2 === 0 ? "left" : "left"} duration={1500 + (i * i)}
-                   delay={i * 10}>
-                <Flip duration={2500} delay={(i * 10)} direction={"vertical"} triggerOnce={true}>
+              duration={1000 + (i * i)} className={s.wrapperFade}
+              delay={25 * i}>
+            <Slide triggerOnce={true} direction={i % 2 === 0 ? "left" : "up"} duration={1000 + (i * i)}
+                   delay={25 * i}>
+                <Flip duration={3000} delay={(i * 10)} direction={"vertical"} triggerOnce={true}>
                     <li className={s.item}>
                         <div>
                             {t.img === "JS" || t.img === "TS"

@@ -9,7 +9,6 @@ export const About = () => {
     return (
         <section className={s.wrapper} id={"about"}>
             <Info/>
-            <Separator/>
             <Skills/>
             <Separator/>
             <Experience/>

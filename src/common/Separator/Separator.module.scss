@@ -4,6 +4,10 @@
   background-image: linear-gradient(to right, transparent, #86868c, transparent);
   margin: 60px 0px;
   animation: fade 5s infinite linear ;
+  @media (min-width: 992px) {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
 @keyframes fade {
   0%{

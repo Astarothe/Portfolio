@@ -21,7 +21,7 @@ export const Home = () => {
     return (
         <section className={s.home} id={"home"}>
             <Particles params={particlesOpt} className={s.particles}/>
-            <Fade triggerOnce={true} duration={500}>
+            <Fade triggerOnce={true} delay={500}>
                 <div className={s.wrapper}>
                     <h1>I'm mishel savich.
                         <span>Front-end Developer</span>
