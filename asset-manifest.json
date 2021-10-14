@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolion/static/css/main.e4d84d3c.chunk.css",
-    "main.js": "/Portfolion/static/js/main.ac3c1e60.chunk.js",
-    "main.js.map": "/Portfolion/static/js/main.ac3c1e60.chunk.js.map",
+    "main.css": "/Portfolion/static/css/main.874d9f2d.chunk.css",
+    "main.js": "/Portfolion/static/js/main.05111df9.chunk.js",
+    "main.js.map": "/Portfolion/static/js/main.05111df9.chunk.js.map",
     "runtime-main.js": "/Portfolion/static/js/runtime-main.8fe58d00.js",
     "runtime-main.js.map": "/Portfolion/static/js/runtime-main.8fe58d00.js.map",
     "static/js/2.685356a4.chunk.js": "/Portfolion/static/js/2.685356a4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.18b92f80.chunk.js": "/Portfolion/static/js/3.18b92f80.chunk.js",
     "static/js/3.18b92f80.chunk.js.map": "/Portfolion/static/js/3.18b92f80.chunk.js.map",
     "index.html": "/Portfolion/index.html",
-    "static/css/main.e4d84d3c.chunk.css.map": "/Portfolion/static/css/main.e4d84d3c.chunk.css.map",
+    "static/css/main.874d9f2d.chunk.css.map": "/Portfolion/static/css/main.874d9f2d.chunk.css.map",
     "static/js/2.685356a4.chunk.js.LICENSE.txt": "/Portfolion/static/js/2.685356a4.chunk.js.LICENSE.txt",
     "static/media/barbershop.aec421cc.png": "/Portfolion/static/media/barbershop.aec421cc.png",
     "static/media/codewars-icon.207b1d80.svg": "/Portfolion/static/media/codewars-icon.207b1d80.svg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.8fe58d00.js",
     "static/js/2.685356a4.chunk.js",
-    "static/css/main.e4d84d3c.chunk.css",
-    "static/js/main.ac3c1e60.chunk.js"
+    "static/css/main.874d9f2d.chunk.css",
+    "static/js/main.05111df9.chunk.js"
   ]
 }
