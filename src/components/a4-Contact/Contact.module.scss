@@ -50,7 +50,7 @@
         font-size: 33px;
         position: absolute;
         &:hover {
-          color: $rootColor;
+          back: $rootColor;
         }
       }
 
@@ -110,7 +110,6 @@
           line-height: 42px;
           text-align: center;
           color: #fff;
-          transition: .3s;
           font-size: 17px;
           margin: 0 6px;
           background: linear-gradient(0deg, #37393a, #2c2d33);
@@ -118,9 +117,10 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          transition: 0.3s;
 
           &:hover {
-            background-color: $rootColor;
+            background: $rootColor;
           }
 
           &:active {

@@ -10,6 +10,6 @@ type InputType = {
 
 export const Input: FC<InputType> = ({type, placeholder, name, id}) => {
     return (
-        <input type={type} name={name} placeholder={placeholder} className={s.input} id={id}/>
+        <input type={type} name={name} placeholder={placeholder} className={s.input} id={id} required/>
     )
 }

@@ -93,7 +93,8 @@
     @media (min-width: 992px) {
       display: flex;
       padding-top: 0;
-      justify-content: space-evenly;
+      justify-content: end;
+      padding-right: 11%;
     }
 
     .item {
@@ -103,7 +104,6 @@
       cursor: pointer;
       transition: 0.3s;
       position: relative;
-      padding-left: 25px;
       @media (min-width: 992px) {
         padding-left: 0;
       }
@@ -124,12 +124,15 @@
         display: flex;
         align-items: center;
         padding: 14px 0;
+        padding-left: 25px;
         @media (min-width: 580px) {
           font-size: 26px;
         }
         @media (min-width: 992px) {
           font-size: 22px;
           text-align: center;
+
+
         }
         &:hover {
           color: $rootColor;
@@ -147,10 +150,16 @@
             display: none;
           }
         }
-
-        &.active p {
-          color: $rootColor;
+        &.active{
+          background: #5dc9e3;
+          color: black;
+          @media (min-width: 992px) {
+            color: $rootColor;
+            background: inherit;
+          }
         }
+
+
 
         p {
           transition: 0.3s;

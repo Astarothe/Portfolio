@@ -10,7 +10,7 @@ import {EducationType} from "../../../bll/educationReducer";
 export const Experience = () => {
     const education = useSelector<AppType, EducationType[]>(state => state.education)
     return (
-        <Fade triggerOnce={true} direction={"left"} duration={1000} className={s.wrapper}>
+        <Fade triggerOnce={true} direction={"left"} duration={1000} delay={500} className={s.wrapper}>
             <div>
                 <Title center={true}>experience & education</Title>
                 <ul className={s.list}>

@@ -31,7 +31,7 @@ export const Contact = () => {
             <div className={s.wrapper} id={"contact"}>
                 <div className={s.contactWrapper} id={"contact"}>
                     <div className={s.contactInfo}>
-                        <Title>Don't be shy !</Title>
+                        <Title>Contacts </Title>
                         <p className={s.description}>Feel free to get in touch with me.
                             I am always open to discussing new projects,
                             creative ideas or opportunities to be part of your visions.</p>

@@ -21,7 +21,11 @@ export const Button: FC<ButtonType> = ({icon, link, type, children}) => {
                             <FontAwesomeIcon icon={icon} color={"white"} size={"1x"} className={s.icon}/>
                     </span>
                 </button>
-                : <Link className={s.button} to={link || "#"}>
+                : <Link className={s.button} to={link || "#"}
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={1000}>
                     <span>{children}</span>
                     <span className={s.buttonIcon}>
                             <FontAwesomeIcon icon={icon} color={"white"} size={"1x"} className={s.icon}/>

@@ -9,7 +9,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 export const Header = () => {
     const [toggle, setToggle] = useState(false)
     const menu = useSelector<AppType, NavItemType[]>(state => state.header)
-    const menuItem = menu.map(t => <li key={t.id} className={s.item}>
+    const menuItem = menu.map(t => <li key={t.id} className={s.item} >
         <Link to={t.path} activeClass={s.active}
               spy={true}
               smooth={true}
