@@ -15,7 +15,7 @@ const initialState: InfoType[] = [
         id: 3,
     },
     {
-        title: "Address :",
+        title: "City :",
         value: "Novopolock",
         id: 4,
     },
@@ -31,7 +31,7 @@ const initialState: InfoType[] = [
     },
     {
         title: "Nationality :",
-        value: "Belorussian",
+        value: "Belarusian",
         id: 7,
     },
     {

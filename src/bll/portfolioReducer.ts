@@ -8,38 +8,38 @@ import virtualPiano from "../assets/image/virtual-piano.png";
 
 const initialState: PortfolioState[] = [
     {
-        title: "Sedona",
-        description: "html, css, js, less, gulp, mobile-first, adaptive, image(optimization retina display)",
-        backgroundImg: {backgroundImage: `url(${sedona})`},
-        link: {
-            site: "https://astarothe.github.io/Sedona/index.html",
-            code: "https://github.com/Astarothe/Sedona",
-        },
-        id: 1,
-    },
-    {
         title: "Todolist",
-        description: "html, css, js, less, gulp, mobile-first, adaptive, image(optimization retina display)",
+        description: "React, Redux (Thunk), Typescript, Axios, Material-UI, Jest.",
         backgroundImg: {backgroundImage: `url(${todolists})`},
         link: {
             site: "https://astarothe.github.io/Todolists",
             code: "https://github.com/Astarothe/Todolists",
         },
+        id: 1,
+    },
+    {
+        title: "Sedona",
+        description: "HTML, CSS (Mobile-first, Adaptive layout, Retina display), Less, Javascript, Gulp.",
+        backgroundImg: {backgroundImage: `url(${sedona})`},
+        link: {
+            site: "https://astarothe.github.io/Sedona/index.html",
+            code: "https://github.com/Astarothe/Sedona",
+        },
         id: 2,
     },
     {
         title: "Shelter",
-        description: "html, css, js, less, gulp, mobile-first, adaptive, image(optimization retina display)",
+        description: "HTML, CSS (Adaptive layout), Less, Javascript, Gulp.",
         backgroundImg: {backgroundImage: `url(${shelter})`},
         link: {
             site: "https://rolling-scopes-school.github.io/astarothe-JS2020Q3/shelter/pages/main/index.html",
-            code: "https://github.chttps://github.com/rolling-scopes-school/astarothe-JS2020Q3/tree/shelter/shelter",
+            code: "https://github.com/rolling-scopes-school/astarothe-JS2020Q3/tree/shelter/shelter",
         },
         id: 3,
     },
     {
         title: "Barbershop",
-        description: "html, css, js, less, gulp, mobile-first, adaptive, image(optimization retina display)",
+        description: "HTML, CSS.",
         backgroundImg: {backgroundImage: `url(${barbershop})`},
         link: {
             site: "https://astarothe.github.io/Barbershop",
@@ -49,7 +49,7 @@ const initialState: PortfolioState[] = [
     },
     {
         title: "Photo-filter",
-        description: "html, css, js, less, gulp, mobile-first, adaptive, image(optimization retina display)",
+        description: "Javascript.",
         backgroundImg: {backgroundImage: `url(${photoFilter})`},
         link: {
             site: "https://astarothe.github.io/Photo-filter",
@@ -59,7 +59,7 @@ const initialState: PortfolioState[] = [
     },
     {
         title: "Virtual-piano",
-        description: "html, css, js, less, gulp, mobile-first, adaptive, image(optimization retina display)",
+        description: "Javascript.",
         backgroundImg: {backgroundImage: `url(${virtualPiano})`},
         link: {
             site: "https://rolling-scopes-school.github.io/astarothe-JSFE2021Q1/virtual-piano/",

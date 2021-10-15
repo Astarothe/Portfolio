@@ -3,10 +3,15 @@ import s from "./Project.module.scss"
 import {PortfolioState} from "../../../bll/portfolioReducer";
 
 export const Project: FC<PortfolioState> = ({backgroundImg, link, description, title}) => {
+    const style = {
+        ...backgroundImg,
+        backgroundPosition: title === "Shelter" ? "top" : "inherit",
+    }
+    console.log(title)
     return (
         <>
             <li className={s.item}>
-                <figure style={backgroundImg}>
+                <figure style={style} >
                     <a href={link.site} target={"_blank"} rel="noopener noreferrer">
                         site
                     </a>
