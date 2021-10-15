@@ -12,9 +12,11 @@
     box-sizing: border-box;
   }
   @media (min-width: 768px) {
+    padding-top: 50px;
     max-width: 720px;
   }
   @media (min-width: 992px) {
+    padding-top: 0;
     max-width: calc(100% - 195px);
     display: flex;
   }

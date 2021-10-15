@@ -13,7 +13,7 @@ export const Header = () => {
         <Link to={t.path} activeClass={s.active}
               spy={true}
               smooth={true}
-              offset={t.path === "about" ? 0 : t.path === "contact" ? -0 : -80}
+              offset={t.path === "about" ? 0 : t.path === "contact" ? 0 : -60}
               duration={1000}>
             <FontAwesomeIcon icon={t.icon} color={"white"} size={"sm"} className={s.iconMini}/>
             <p className={s.title}>{t.title}</p>
