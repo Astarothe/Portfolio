@@ -32,8 +32,8 @@ const initialState: PortfolioState[] = [
         description: "HTML, CSS (Adaptive layout), Less, Javascript, Gulp.",
         backgroundImg: {backgroundImage: `url(${shelter})`},
         link: {
-            site: "https://rolling-scopes-school.github.io/astarothe-JS2020Q3/shelter/pages/main/index.html",
-            code: "https://github.com/rolling-scopes-school/astarothe-JS2020Q3/tree/shelter/shelter",
+            site: "https://astarothe.github.io/Shelter",
+            code: "https://github.com/Astarothe/Shelter",
         },
         id: 3,
     },
