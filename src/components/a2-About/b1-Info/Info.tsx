@@ -24,7 +24,7 @@ export const Info = () => {
                         </li>)
                     }
                 </ul>
-                <Button icon={faDownload}>Download cv</Button>
+                <Button icon={faDownload} download={true}>Download cv</Button>
             </div>
             <div className={s.links}>
                 <ul>
