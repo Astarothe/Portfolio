@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.305ba57f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c1df903a.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c1df903a.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.2d9be03a.chunk.css",
+    "main.js": "/Portfolio/static/js/main.d24d5cd7.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d24d5cd7.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.781b0b8c.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.781b0b8c.js.map",
     "static/js/2.b801ac00.chunk.js": "/Portfolio/static/js/2.b801ac00.chunk.js",
@@ -10,15 +10,15 @@
     "static/js/3.f9c056d2.chunk.js": "/Portfolio/static/js/3.f9c056d2.chunk.js",
     "static/js/3.f9c056d2.chunk.js.map": "/Portfolio/static/js/3.f9c056d2.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.305ba57f.chunk.css.map": "/Portfolio/static/css/main.305ba57f.chunk.css.map",
+    "static/css/main.2d9be03a.chunk.css.map": "/Portfolio/static/css/main.2d9be03a.chunk.css.map",
     "static/js/2.b801ac00.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b801ac00.chunk.js.LICENSE.txt",
+    "static/media/CV_Mishel_Savich.243d3b29.pdf": "/Portfolio/static/media/CV_Mishel_Savich.243d3b29.pdf",
     "static/media/barbershop.aec421cc.png": "/Portfolio/static/media/barbershop.aec421cc.png",
     "static/media/codewars-icon.207b1d80.svg": "/Portfolio/static/media/codewars-icon.207b1d80.svg",
     "static/media/css-icon.a136bc1b.svg": "/Portfolio/static/media/css-icon.a136bc1b.svg",
     "static/media/github-icon.f70d0d20.svg": "/Portfolio/static/media/github-icon.f70d0d20.svg",
     "static/media/html-icon.452af7e5.svg": "/Portfolio/static/media/html-icon.452af7e5.svg",
     "static/media/linkedin-icon.ccdf8b67.svg": "/Portfolio/static/media/linkedin-icon.ccdf8b67.svg",
-    "static/media/mishel_savich_cv.cc0517f7.pdf": "/Portfolio/static/media/mishel_savich_cv.cc0517f7.pdf",
     "static/media/photo-filter.ff868591.png": "/Portfolio/static/media/photo-filter.ff868591.png",
     "static/media/react-icon.d0e4e26d.svg": "/Portfolio/static/media/react-icon.d0e4e26d.svg",
     "static/media/redux-icon.c240cdb8.svg": "/Portfolio/static/media/redux-icon.c240cdb8.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.781b0b8c.js",
     "static/js/2.b801ac00.chunk.js",
-    "static/css/main.305ba57f.chunk.css",
-    "static/js/main.c1df903a.chunk.js"
+    "static/css/main.2d9be03a.chunk.css",
+    "static/js/main.d24d5cd7.chunk.js"
   ]
 }
