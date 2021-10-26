@@ -7,7 +7,6 @@ export const Project: FC<PortfolioState> = ({backgroundImg, link, description, t
         ...backgroundImg,
         backgroundPosition: title === "Shelter" ? "top" : "inherit",
     }
-    console.log(title)
     return (
         <>
             <li className={s.item}>

@@ -4,7 +4,7 @@ import React, {FC} from "react";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 import Links from "react-scroll/modules/components/Link";
 //@ts-ignore
-import sv from "../../assets/cv/mishel_savich_cv.pdf"
+import sv from "../../assets/cv/CV_Mishel_Savich.pdf"
 
 type ButtonType = {
     icon: IconProp
